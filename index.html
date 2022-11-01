@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cheemsificador</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+    <LINK REL=StyleSheet HREF="styles.css" TYPE="text/css" MEDIA=screen>
+
+    
+
+
+        <div class="mainform">
+            <div class="inputoutput">
+                <h3 style="color:#ffffff">Cheemisificador hecho por Lau 🥵</h3>
+                <img id="imageSrc" alt="" /> 
+                <div class="caption">
+                    <p style="margin-left: 50px;color:#ffb649">Selecciona un archivo </p>
+                    <input type="file" id="fileInput" name="file" class="btn btn-outline-light" style="margin-left: 50px;"/>
+                </div>
+
+                <button id="ok" style="display: none; margin-left: 50px;"class="btn btn-light btn-lg" > Cheemsificar</button>
+                <div class="inputoutput">
+                    <canvas id="finalCanvas" style="display: none;" ></canvas>
+                        
+                     <img id="finalImage" >
+                </div>
+    <div id="status" class="d-flex align-items-center">
+
+        <div class="spinner-border m-5" role="status">
+           </div>
+      </div>
+      </div>
+            </div>
+        
+          </div>
+          
+        
+    </body>
+    
+   
+    <script type="text/javascript" src ="./scripts/base64.js"></script>
+    <script type="text/javascript" src="./scripts/transformador.js"></script>
+    <script async src="https://docs.opencv.org/4.5.1/opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
+    
+</html>
+
+
+
+
+
